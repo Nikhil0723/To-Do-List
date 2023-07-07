@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(218, 218, 29);
+    padding: 30px;
+    font-family: sans-serif;
+    max-height: 80vh;
+}
+
+#task-input{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+#add-btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+.data{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.check{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+}
+.delete{
+    font-weight: 600;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+}
